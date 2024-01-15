@@ -395,6 +395,9 @@ rec {
       arch = "armv8.3-a+crypto+sha2+aes+crc+fp16+lse+simd+ras+rdm+rcpc";
       cpu = "apple-a13";
     };
+    clang = {
+      cpu = "apple-m1";
+    };
   };
 
   ##
